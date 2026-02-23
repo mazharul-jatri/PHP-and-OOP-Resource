@@ -14,6 +14,6 @@ $emptyArray = [];
 echo (is_null($emptyArray) ? 'yes' : 'no') . PHP_EOL; // Output: no
 echo (empty($emptyArray) ? 'yes' : 'no') . PHP_EOL; // Output: yes
 
-$truthyAndFalsyValue = 0;
+$truthyAndFalsyValue = 0; // same result if place valuse as false
 echo (is_null($truthyAndFalsyValue) ? 'yes' : 'no') . PHP_EOL; // Output: no
 echo (empty($truthyAndFalsyValue) ? 'yes' : 'no') . PHP_EOL; // Output: yes
